@@ -8,6 +8,7 @@ html {
     height: 100%;
 
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -18,7 +19,6 @@ body {
     font-size: 11px;
     line-height: 15px;
     color: #FFFFFF;
-    /*overflow: hidden;*/
 }
 
 header, footer {
@@ -43,6 +43,7 @@ input {
     outline: none;
     border: none;
 }
+
 /*Navigation - start */
 .navigation, .footer {
     text-transform: uppercase;
@@ -201,6 +202,7 @@ input {
     line-height: 27px;
     margin-bottom: 42px;
     color: #FFFFFF;
+    width: 400px;
 }
 .block2-box__text-description {
     margin-bottom: 74px;
@@ -351,7 +353,6 @@ input {
     margin: 0 auto 91.5px;
     width: 681px;
 }
-
 .block3__form-box {
         display: flex;
         justify-content: center;
@@ -364,9 +365,7 @@ input {
 .block3__form-box:first-child {
     margin-bottom: 33.24px;
     justify-content: space-between;
-    /*flex-wrap: wrap;*/
 }
-
 .block3__form-block {
     display: flex;
     flex-direction: column;
@@ -395,13 +394,11 @@ input {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
     transition: .5s;
 }
-
 .form-data-processing-consent {
     font-size: 14px;
     line-height: 23px;
 
 }
-
 [id^=checkbox] {
     display: none;
 }
@@ -430,7 +427,6 @@ input {
     transform: scale(1);
     width: 18px;
     height: 18px;
-
 }
 .form-submit-mobile {
     display: none;
@@ -496,7 +492,6 @@ input {
     color: #959595;
     list-style-position: inside;
 }
-
 .fake-button {
     width: 228px;
     height: 54px;
@@ -910,7 +905,6 @@ input {
     height: 31px;
     background-size: cover;
     margin-right: 15px;
-
 }
 .style-block-icon__days {
     background: url('../images/icons/days.svg') no-repeat;
@@ -998,7 +992,6 @@ input {
     margin-right: 9px;
     cursor: pointer;
 }
-
 [id^=checkbox3] + label::before{
     content: url('../images/icons/checkbox.svg');
     display: inline-block;
@@ -1081,7 +1074,6 @@ input {
     width: 925px;
     height: 465px;
 }
-
 .block10__contacts-block__title-mobile {
     display: none;
 }
@@ -1216,12 +1208,7 @@ input {
         line-height: 17px;
         margin-bottom: 36px;
         text-align: center;
-    }
-    .subtitle::before {
-        content: 'Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families';
-    }
-    .subtitle-mobile-state {
-        display: none;
+        width: 100%;
     }
     .block2-box__text-title__style {
         margin-bottom: 139px;
@@ -1251,7 +1238,6 @@ input {
         width: 36px;
         height: 36px;
         margin-right: 14px;
-
     }
     .block3 {
         background: #131313;
@@ -1281,7 +1267,6 @@ input {
         margin-bottom: 61px;
         color: #FFFFFF;
     }
-
     .block3__form {
         display: flex;
         flex-direction: column;
@@ -1296,7 +1281,6 @@ input {
         flex-direction: column;
         margin-bottom: 26px;
     }
-
     .block3__form-block {
         margin-bottom: 63px;
     }
@@ -1308,7 +1292,6 @@ input {
         line-height: 21px;
         color: rgba(255, 255, 255, 0.5);
         transform: rotate(-0.07deg);
-
     }
     .form-placeholder {
         color: #FFFFFF;
@@ -1700,12 +1683,7 @@ input {
         line-height: 17px;
         margin-bottom: 36px;
         text-align: center;
-    }
-    .subtitle::before {
-        content: 'Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families';
-    }
-    .subtitle-mobile-state {
-        display: none;
+        width: 100%;
     }
     .block2-box__text-title__style {
         margin-bottom: 139px;
@@ -2188,14 +2166,8 @@ input {
         font-size: 15px;
         line-height: 23px;
         text-align: center;
-        width: 400px;
+        width: 65%;
         margin: 0 auto 36px;
-    }
-    .subtitle::before {
-        content: 'Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families';
-    }
-    .subtitle-mobile-state {
-        display: none;
     }
     .block2-box__text-title__style {
         width: 460px;
